@@ -20,9 +20,10 @@ spec:
     spec:
       containers:
         - name: notification
-          image: mizo-services/notification
+          image: hamzamohtaramelalaou/notification
           envFrom:
             - configMapRef:
                 name: notification-configmap
             - secretRef:
                 name: notification-secret
+
