@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: converter
-          image: mizo-services/converter
+          image: hamzamohtaramelalaou/converter
           envFrom:
             - configMapRef:
                 name: converter-configmap
@@ -28,3 +28,4 @@ spec:
                 name: converter-secret
 
     
+
